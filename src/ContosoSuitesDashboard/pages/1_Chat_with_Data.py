@@ -71,6 +71,7 @@ def handle_chat_prompt(prompt):
         message_placeholder.markdown(full_response)
     st.session_state.messages.append({"role": "assistant", "content": full_response})
 
+
 def main():
     """Main function for the Chat with Data Streamlit app."""
 
